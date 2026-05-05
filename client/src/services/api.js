@@ -3,7 +3,7 @@ import axios from 'axios';
 const STORAGE_KEY = 'curajit_user';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'http://localhost:5001/api',
 });
 
 // Attach JWT from unified storage key (falls back to legacy adminInfo)
@@ -25,6 +25,7 @@ API.interceptors.request.use((req) => {
 export const loginUser  = (data) => API.post('/auth/login', data);
 export const registerPatient = (data) => API.post('/auth/register', data);
 export const registerDoctor  = (data) => API.post('/auth/register-doctor', data);
+export const registerAdmin   = (data) => API.post('/auth/register-admin', data);
 export const getMe      = ()     => API.get('/auth/me');
 
 // ── Admin ─────────────────────────────────────────────────────────────────────
