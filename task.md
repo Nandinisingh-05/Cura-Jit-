@@ -1,0 +1,24 @@
+# Task List - CuraJit Admin Panel Implementation
+
+- [ ] **Backend Enhancements**
+    - [ ] Update `adminController.js` with improved stats aggregation [/]
+    - [ ] Ensure consistent error handling in routes
+- [ ] **Frontend Foundation**
+    - [ ] Update `tailwind.config.js` with professional design tokens [ ]
+    - [ ] Set up `Toaster` in `App.jsx` [ ]
+    - [ ] Refine `AuthContext` for better state management [ ]
+- [ ] **Reusable Components**
+    - [ ] Build `DataTable` component with pagination and search [ ]
+    - [ ] Build `StatCard` with trends [ ]
+    - [ ] Refine `Sidebar` and `Navbar` [ ]
+- [ ] **Management Pages**
+    - [ ] Complete `UserManagement` (Block/Delete) [ ]
+    - [ ] Complete `DoctorManagement` (Approve/Reject) [ ]
+    - [ ] Complete `AppointmentManagement` (Status Updates) [ ]
+- [ ] **Analytics & Overview**
+    - [ ] Implement `Dashboard` overview with summary charts [ ]
+    - [ ] Create detailed `Analytics` page [ ]
+- [ ] **Final Polish**
+    - [ ] Add loading skeletons [ ]
+    - [ ] Ensure mobile responsiveness [ ]
+    - [ ] Final verification of JWT flow [ ]
